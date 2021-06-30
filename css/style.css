@@ -1,3 +1,142 @@
-body, html {
-    font-family: 'Jost', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+body,
+html {
+  font-family: "Jost", sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+/* HEADER */
+.container {
+  max-width: 1200px;
+}
+
+.logo {
+  text-transform: none;
+  display: block;
+  font-size: 14px;
+  padding-left: 46px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+#navbarSupportedContent {
+  font-size: 15px;
+  font-weight: 600;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.navbar .navbar-brand span.fa {
+  margin-right: 5px;
+  color: green;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  transform: translateX(-50px);
+  background: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu:before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: white;
+  border: 1px solid white;
+  display: block;
+  border-right: none;
+  border-bottom: none;
+  transform: translateX(-50%) rotateZ(45deg);
+  position: absolute;
+  top: -7px;
+  left: 49%;
+  z-index: 1001;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+}
+
+.header-search .btn-material{
+    cursor: pointer;
+}
+
+#navbarSupportedContent .nav-item::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #35a22c;
+  display: block;
+  transition: all 0.5s;
+}
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.theme-switch {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.mode-container {
+    width: 24px;
+    height: 24px;
+    padding: 1px 0;
+}
+
+.mode-container i, .fa-search{
+    font-size: 20px;
+}
+
+
+.mode-container i.gg-sun {
+  display: none;
+}
+.gg-sun,
+.gg-sun:after,
+.gg-sun:before {
+  box-sizing: border-box;
+  display: block;
+  width: 24px;
+  color: #eee;
+}
+
+.mode-container i.gg-moon {
+  display: block;
+}
+
+.gg-moon,
+.gg-moon:after {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  color: #eee;
+}
+
