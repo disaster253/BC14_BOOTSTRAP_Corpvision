@@ -577,3 +577,23 @@ svg {
   color: white;
   border: 1px solid #3f3a64;
 }
+
+/* PROJECT */
+.title-content {
+  max-width: 800px;
+  margin: auto;
+}
+.title-small {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #7e7d7d;
+  display: block;
+}
+.title-big {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+}
