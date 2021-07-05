@@ -291,7 +291,7 @@ li {
 /* CAROUSEL TEXT */
 
 .dark .carousel__content p {
-  color: rgb(227,229,230);
+  color: rgb(227, 229, 230);
 }
 
 /* CAROUSEL BUTTON */
@@ -586,7 +586,7 @@ svg {
   border: 1px solid #3f3a64;
 }
 
-.dark .info .style1{
+.dark .info .style1 {
   color: white;
 }
 
@@ -686,17 +686,7 @@ svg {
   color: #eee;
   display: block;
 }
-/* .card-img,
-.card-img-bottom {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
-}
-.card-img,
-.card-img-top,
-.card-img-bottom {
-  flex-shrink: 0;
-  width: 100%;
-} */
+
 /* LOGO */
 .company-logos {
   border-top: 1px solid #eee;
@@ -942,6 +932,7 @@ svg {
   left: 0;
   right: 0;
   top: 4100px;
+  background-color: #f8f9fa;
   color: #404040;
   padding: 50px 0;
 }
@@ -979,11 +970,7 @@ svg {
   background: none;
   display: block;
 }
-.owl-theme .owl-dots,
-.owl-theme .owl-nav {
-  text-align: center;
-  -webkit-tap-highlight-color: transparent;
-}
+
 .owl-dots {
   margin-top: 0px;
   position: absolute;
@@ -992,14 +979,7 @@ svg {
   bottom: 30px;
   background: none;
 }
-.review .testimonial img {
-  width: 100%;
-  min-height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: center;
-  object-position: center;
-}
+
 .review .testimonial .peopl h3 {
   margin: 0;
   font-weight: 600;
@@ -1010,13 +990,7 @@ svg {
   margin-bottom: 0;
   opacity: 0.8;
 }
-.owl-carousel.owl-drag .owl-item {
-  touch-action: pan-y;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+
 .owl-theme .owl-nav [class*="owl-"] {
   color: #fff;
   font-size: 20px;
@@ -1239,7 +1213,7 @@ svg {
   left: 0;
   right: 0;
   padding: 50px 0;
-  color: #404040;
+  color: #a3a3a3;
 }
 .news .card {
   border: none;
@@ -1346,10 +1320,6 @@ svg {
 .post-thumbnail img {
   width: 100%;
   min-height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: center;
-  object-position: center;
   display: block;
   transition: 0.3s ease-in-out;
   border-radius: 8px;
@@ -1405,14 +1375,7 @@ form.subscribe-group {
   max-width: 550px;
   margin: auto;
 }
-/* .input-group .subscribe-group {
-  color: #999;
-  background-color: rgba(0, 0, 0, 0.25);
-  border-color: rgba(255, 255, 255, 0.15);
-  padding: 0 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-} */
+
 .input-group {
   display: flex;
   align-items: center;
@@ -1443,9 +1406,7 @@ form.subscribe-group {
   border-color: rgba(255, 255, 255, 0.15);
   border-left: none;
 }
-.fa-paper-plane:before {
-  content: "";
-}
+
 .subscribe-group button.btn {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
