@@ -119,6 +119,7 @@ li {
 .mode-container {
   width: 0;
   height: 0;
+  border: transparent;
 }
 
 .mode-container i,
@@ -285,6 +286,12 @@ li {
 
 .carousel__content p {
   font-size: 22px;
+}
+
+/* CAROUSEL TEXT */
+
+.dark .carousel__content p {
+  color: rgb(227,229,230);
 }
 
 /* CAROUSEL BUTTON */
@@ -577,6 +584,10 @@ svg {
   background-color: rgb(21, 20, 33);
   color: white;
   border: 1px solid #3f3a64;
+}
+
+.dark .info .style1{
+  color: white;
 }
 
 /* PROJECT */
